@@ -39,5 +39,11 @@ dnf install -y git
 dnf install -y gcc
 dnf install -y gcc-c++
 dnf install -y cmake
+
+git clone https://github.com/open-source-parsers/jsoncpp
+df jsoncpp
+mkdir build && cd build
+cmake ..
+make && make install
 ```
 
