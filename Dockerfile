@@ -6,8 +6,6 @@ RUN dnf install -y gcc-c++
 
 RUN dnf install -y openssl
 RUN dnf install -y openssl-devel
-
-# build cmake from repo, default version is too low
 RUN dnf install -y cmake
 
 RUN git clone https://github.com/open-source-parsers/jsoncpp
